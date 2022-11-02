@@ -373,7 +373,7 @@ if __name__ == "__main__":
     Whether_health=config["Whether_health"]
 	
 	#是否启用土味情话API                       2022.8.25
-	Whether_tuwei=config["Whether_tuwei"]
+	#Whether_tuwei=config["Whether_tuwei"]
     
 	#获取星座
     astro = config["astro"]
@@ -391,7 +391,7 @@ if __name__ == "__main__":
     lucky_ = lucky()
 	
 	#土味情话             2022.8.15
-	tuwei = tuwei()
+	#tuwei = tuwei()
 	
     # 公众号推送消息
     for user in users:
