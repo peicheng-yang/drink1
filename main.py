@@ -139,7 +139,7 @@ def caihongpi():
 
 #土味情话
 def tuwei():
-	if	(Whether_tuwei!=False)：
+	if	(Whether_tuwei!=False):
 		try:
 			conn = http.client.HTTPSConnection('api.tianapi.com')  #接口域名
 			params = urllib.parse.urlencode({'key':tianxing_API})
